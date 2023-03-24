@@ -27,24 +27,6 @@ class HomepageController extends GetxController {
   @override
   void onInit() {
     messageController = TextEditingController();
-    // openAI = OpenAI.instance.build(
-    //   token: "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",
-    //   baseOption: HttpSetup(receiveTimeout: 5),
-    //   isLogger: true,
-    // );
-    // inspect(openAI);
-    // final request = CompleteText(
-    //   prompt: 'What is human life expectancy in the United States?',
-    //   model: kTranslateModelV3,
-    //   maxTokens: 200,
-    // );
-
-    // openAI
-    //     .onCompleteStream(request: request)
-    //     .listen((response) => print(response))
-    //     .onError((err) {
-    //   print("$err");
-    // });
     super.onInit();
   }
 
